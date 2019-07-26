@@ -1,0 +1,24 @@
+.magmax {
+    border-radius: 16px;
+    background-color: rgb(71, 0, 0);
+    border: 6px solid rgb(255, 84, 84);
+}
+
+h2.magmax-text {
+    text-align: center;
+    color: rgb(255, 84, 84);
+    font-size: 40px;
+}
+
+.magmax-ability {
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(255, 84, 84);
+    text-align: left;
+    padding-left: 60px;
+}
+
+.magmax-text {
+    font-size: 20px;
+    color: rgb(255, 84, 84);
+}
