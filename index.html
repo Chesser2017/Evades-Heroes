@@ -7,9 +7,6 @@
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1>All heroes and their abilities:</h1>
-          <br>
-
           <div id="magmax" class="magmax-box">
 
             <h2 class="magmax title">Magmax</h2>
@@ -260,36 +257,209 @@
           </div>  
 
           <br>
-            <h2>Reaper</h2>
-              <p><strong>Atonement</strong>: Revives all players in your aura while killing you in the process. Costs <em>30 energy</em>. (<em>Cooldown 6/5.5/4/4.5/4s</em>)(Radius <em>100/125/150/175/200px</em>)</p>
-              <p><strong>Depart</strong>: Becomes invulnerable for <em>2.7/2.9/3.1/3.3/3.5s</em>. Move with 10 speed ignoring effects. Costs <em>30 energy</em>. Cooldown 10s</p>
-            <br>
-            <h2>Rameses</h2>
-              <p><strong>Bandages</strong>: Wraps bandages around self over <em>12/11/10/9/8s</em> moving 50% slower. If hit with bandages on, they fall off over 1s, keeping you safe. Costs <em>50 energy</em></p>
-              <p><strong>Latch</strong>: Throws a high-tech bandage in target direction. If a player is hit, it teleports you to that player. Only usable if bandages are applied. Costs <em>25 energy</em>.(<em>Cooldown 8/7.5/7/6.5/5s</em>)</p>
-            <br>
-            <h2>Jolt</h2>
-              <p><strong>Spark</strong>: Shoots two projectiles that emit slowing sparks in opposite directions. 1 use per 25 pellets. (<em>7/9/11/13/15 projectiles</em>)</p>
-              <p><strong>Charge</strong>: Pulls nearby pellets towards you. Costs <em>10 energy/second</em>.(<em>100/120/140/160/180 range</em>)</p>
-            <br>
-            <h2>Cent</h2>
-              <p><strong>Fusion</strong>: Becomes a thick paste that can pass through enemies. Slowed by 30%. Lasts 0.7s. Cooldown <em>1.4/1.3/1.2/1.1/1s</em>. Costs <em>5 energy</em>.</p>
-              <p><strong>Mortar</strong>: On death or activation, explodes into small pieces that come back together in 4s. Cooldown <em>18/16/14/12/10s</em>. Costs <em>30 energy</em></p>
-            <br>
-            <h2>Jötunn</h2>
-              <p><strong>Decay</strong>: Passively radiate an aura of decay slowing all enemies around you by <em>0%/10%/20%/30%/40%</em>. Range 170</p>
-              <p><strong>Shatter</strong>: Shatters decayed enemies into harmless shards that come back together in 4s. Cooldown <em>10s/9s/8s/7s/6s</em>. Costs <em>30 energy</em>.</p>
-            <br>
-            <h2>Candy</h2>
-              <p><strong>Sugar Rush</strong>: Move with a +5 boost to speed for 2s, stopping all enemies within 110 range of you for 2s. Cooldown <em>12/10/8/6/4s</em>. Costs <em>40 energy</em>.</p>
-              <p><strong>Sweet Tooth</strong>: Places a candy that can be consumed by any player to recover 50% of max energy and gain a <em>+1/2/3/4/5</em> boost to speed and regen for 12s. Cooldown 5s. Costs <em>5 energy</em>.</p>
-            <br>
-            <h2>Ghoul</h2>
-              <p><strong>Shriek</strong>: Shrieks at enemies causing them to stay away from hero for 6s. Costs <em>15 energy</em>. Cooldown <em>8/7.5/7/6.5/6s</em>. Range <em>130/160/190/220/250</em>.</p>
-              <p><strong>Shadow</strong>: Leaves shadow behind, which stays for <em>2/2.5/3/3.5/4s</em>. Ghoul moves 40% faster. Shadow is targeted first. Cooldown 6s. Costs <em>15 energy</em>.</p>
-            <br>
-            <h2>Mirage</h2>
-              <p><strong>Obscure</strong>: Shoots a projectile that warps the player to the first enemy it hits. Afterwards, player becomes invulnerable for 1s. Cooldown <em>4.5/4/3.5/3/2.5s</em>. Costs <em>15 energy</em>.</p>
-              <p><strong>Shift</strong>: Teleports player to the last safe zone touched. Can use while downed. Cooldown <em>26/23/20/17/14s</em>. Costs <em>30 energy</em>.</p>         
+
+          <div id="reaper" class="reaper-box">
+
+            <h2 class="reaper title">Reaper</h2>
+            
+              <span class="reaper ability">Atonement</span>
+
+              <ul class="reaper text">
+                <li>Revives all players in its aura, but dies afterwards</li>
+                <li>Costs 30 energy</li>
+                <li>6/5.5/4/4.5/4s cooldown</li>
+                <li>Aura radius: 100/125/150/175/200px</li>
+              </ul>
+              
+              <span class="reaper ability">Depart</span>
+
+              <ul class="reaper text">
+                <li>Becomes invulnerable for 2.7/2.9/3.1/3.3/3.5s</li>
+                <li>Costs 30 energy</li>
+                <li>Move with 10 speed ignoring effects</li>
+                <li>10s cooldown</li>
+              </ul>
+
+          </div>  
+
+          <br>
+
+          <div id="rameses" class="rameses-box">
+
+            <h2 class="rameses title">Rameses</h2>
+
+              <span class="rameses ability">Bandages</span>
+
+              <ul class="rameses text">
+                <li>Wraps bandage around self over 12/11/10/9/8s, moving 50% slower</li>
+                <li>If hit with bandages on, they fall off over 1s, keeping you safe</li>
+                <li>Move with 10 speed ignoring effects</li>
+                <li>Costs 50 energy</li>
+              </ul>
+
+              <span class="rameses ability">Latch</span>
+
+              <ul class="rameses text">
+                <li>Throws a high-tech bandage in target direction</li>
+                <li>If a player is hit, it teleports you to that player</li>
+                <li>Move with 10 speed ignoring effects</li>
+                <li>Only usable if bandages are applied</li>
+                <li>Costs 50 energy</li>
+                <li>8/7.5/7/6.5/5s cooldown</li>
+              </ul>
+          </div>
+
+          <br>
+
+          <div id="jolt" class="jolt-box">
+
+            <h2 class="jolt title">Jolt</h2>
+
+              <span class="jolt ability">Spark</span>
+
+              <ul class="jolt text">
+                <li>Shoots two projectiles that emit slowing sparks in opposite directions</li>
+                <li>1 use per 25 pellets</li>
+                <li>7/9/11/13/15 projectiles</li>
+              </ul>
+
+              <span class="jolt ability">Charge</span>
+
+              <ul class="jolt text">
+                <li>Pulls nearby pellets towards you</li>
+                <li>Costs 10 energy/second</li>
+                <li>100/120/140/160/180 range</li>
+              </ul>
+          
+          </div>
+
+          <br>
+
+          <div id="cent" class="cent-box">
+
+            <h2 class="cent title">Cent</h2>
+
+              <span class="cent ability">Fusion</span>
+
+              <ul class="cent text">
+                <li>Becomes a thick paste that can pass through enemies</li>
+                <li>Slowed by 30%</li>
+                <li>Lasts 0.7s</li>
+                <li>1.4/1.3/1.2/1.1/1s cooldown</li>
+                <li>Costs 5 energy</li>
+              </ul>
+
+              <span class="cent ability">Mortar</span>
+
+              <ul class="cent text">
+                <li>On hit/activation, explodes into small pieces that come back together in 4s</li>
+                <li>18/16/14/12/10s cooldown</li>
+                <li>Costs 30 energy</li>
+              </ul>
+
+          </div>
+
+          <br>
+
+          <div id="jotunn" class="jotunn-box">
+
+            <h2 class="jotunn title">Jötunn</h2>
+
+              <span class="jotunn ability">Decay</span>
+
+              <ul class="jotunn text">
+                <li>Passive</li>
+                <li>Slows all enemies in aura(invisible) by 0%/10%/20%/30%/40%</li>
+                <li>Aura radius: 170</li>
+              </ul>
+
+              <span class="jotunn ability">Shatter</span>
+
+              <ul class="jotunn text">
+                <li>Shatters decayed enemies into harmless shards that come back together in 4s</li>
+                <li>Slows all enemies in aura(invisible) by 0%/10%/20%/30%/40%</li>
+                <li>10s/9s/8s/7s/6s cooldown</li>
+                <li>Costs 30 energy</li>
+              </ul>
+          
+          </div>
+
+          <br>
+
+          <div id="candy" class="candy-box">
+
+            <h2 class="candy title">Candy</h2>
+
+              <span class="candy ability">Sugar Rush</span>
+
+              <ul class="candy text">
+                <li>Move with a +5 boost to speed for 2s</li>
+                <li>All enemies within 110 range of you are stopped for 2s</li>
+                <li>12/10/8/6/4s cooldown</li>
+                <li>Costs 40 energy</li>
+              </ul>
+
+              <span class="candy ability">Sweet Tooth</span>
+
+              <ul class="candy text">
+                <li>Places a candy that can be consumed by any player</li>
+                <li>If consumed, player recovers 50% of their max energy, and gain +1/2/3/4/5 speed and regen for 12s</li>
+                <li>5s cooldown</li>
+                <li>Costs 5 energy</li>
+              </ul>
+          
+          </div>
+
+          <br>
+
+          <div id="ghoul" class="ghoul-box">
+
+            <h2 class="ghoul title">Ghoul</h2>
+
+              <span class="ghoul ability">Shriek</span>
+
+              <ul class="ghoul text">
+                <li>Shrieks at enemies causing them to stay away from hero for 6s</li>
+                <li>Aura radius: 130/160/190/220/250</li>
+                <li>8/7.5/7/6.5/6s cooldown</li>
+                <li>Costs 15 energy</li>
+              </ul>
+
+              <span class="ghoul ability">Shadow</span>
+
+              <ul class="ghoul text">
+                <li>Leaves shadow behind, which stays for 2/2.5/3/3.5/4s</li>
+                <li>Shadow is targeted first</li>
+                <li>6s cooldown</li>
+                <li>Costs 15 energy</li>
+              </ul>
+
+          </div>  
+
+          <br>
+
+          <div id="mirage" class="mirage-box">
+
+            <h2 class="mirage title">Mirage</h2>
+
+              <span class="mirage ability">Obscure</span>
+
+              <ul class="mirage text">
+                <li>Shoots a projectile that warps the player to the first enemy it hits</li>
+                <li>Players becomes invulnerable for 1s</li>
+                <li>4.5/4/3.5/3/2.5s cooldown</li>
+                <li>Costs 15 energy</li>
+              </ul>
+
+              <span class="mirage ability">Shift</span>
+
+              <ul class="mirage text">
+                <li>Teleports player to the last safe zone touched</li>
+                <li>Can use while downed</li>
+                <li>26/23/20/17/14s cooldown</li>
+                <li>Costs 30 energy</li>
+              </ul>
+
+          </div>        
     </body>
 </html>

@@ -3,6 +3,10 @@
     font-size: 40px;
 }
 
+body {
+    background-color: black;
+}
+
 .magmax-box {
     border-radius: 16px;
     background-color: rgb(71, 0, 0);
@@ -112,4 +116,84 @@
 
 .chrono {
     color: rgb(0, 216, 133);
+}
+
+.reaper-box {
+    border-radius: 16px;
+    background-color: rgb(33, 40, 48);
+    border: 6px solid rgb(198, 213, 239);
+}
+
+.reaper {
+    color: rgb(198, 213, 239);
+}
+
+.rameses-box {
+    border-radius: 16px;
+    background-color: rgb(92, 96, 48);
+    border: 6px solid rgb(200, 204, 93);
+}
+
+.rameses {
+    color: rgb(200, 204, 93);
+}
+
+.jolt-box {
+    border-radius: 16px;
+    background-color: rgb(150, 150, 9);
+    border: 6px solid rgb(255, 255, 28);
+}
+
+.jolt {
+    color: rgb(255, 255, 28);
+}
+
+.cent-box {
+    border-radius: 16px;
+    background-color: rgb(150, 150, 150);
+    border: 6px solid rgb(232, 232, 232);
+}
+
+.cent {
+    color: rgb(232, 232, 232);
+}
+
+.jotunn-box {
+    border-radius: 16px;
+    background-color: rgb(23, 59, 71);
+    border: 6px solid rgb(79, 203, 255);
+}
+
+.jotunn {
+    color: rgb(79, 203, 255);
+}
+
+.candy-box {
+    border-radius: 16px;
+    background-color: rgb(99, 49, 73);
+    border: 6px solid rgb(255, 178, 215);
+}
+
+.candy {
+    color: rgb(255, 178, 215);
+}
+
+.ghoul-box {
+    border-radius: 16px;
+    background-color: rgb(99, 131, 142);
+    border: 6px solid rgb(213, 233, 242);
+}
+
+.ghoul {
+    color: rgb(213, 233, 242);
+}
+
+.mirage-box {
+    border-radius: 16px;
+    background-color: rgb(0, 9, 99);
+    border: 6px solid rgb(78, 89, 219);
+}
+
+.mirage {
+    color: rgb(78, 89, 219);
 }
