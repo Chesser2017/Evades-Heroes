@@ -1,13 +1,12 @@
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+
 .magmax-box {
     border-radius: 16px;
     background-color: rgb(71, 0, 0);
     border: 6px solid rgb(255, 84, 84);
-}
-
-#magmax {
-    text-align: center;
-    color: rgb(255, 84, 84);
-    font-size: 40px;
 }
 
 .magmax {
@@ -31,12 +30,6 @@
     border: 6px solid rgb(168, 194, 255);
 }
 
-#rime {
-    text-align: center;
-    color: rgb(168, 194, 255);
-    font-size: 40px;
-}
-
 .rime {
     color: rgb(168, 194, 255);
 }
@@ -47,12 +40,76 @@
     border: 6px solid rgb(84, 255, 132)
 }
 
-#morfe {
-    text-align: center;
-    color:  rgb(84, 255, 132);
-    font-size: 40px;
-}
-
 .morfe {
     color: rgb(84, 255, 132);
+}
+
+.aurora-box {
+    border-radius: 16px;
+    background-color: rgb(71, 41, 0);
+    border: 6px solid rgb(255, 157, 71);
+}
+
+.aurora {
+    color: rgb(255, 157, 71);
+}
+
+.necro-box {
+    border-radius: 16px;
+    background-color: rgb(61, 0, 71);
+    border: 6px solid rgb(236, 96, 255);
+}
+
+.necro {
+    color: rgb(236, 96, 255);
+}
+
+.brute-box {
+    border-radius: 16px;
+    background-color: rgb(79, 36, 0);
+    border: 6px solid rgb(188, 88, 0);
+}
+
+.brute {
+    color: rgb(188, 88, 0);
+}
+
+.nexus-box {
+    border-radius: 16px;
+    background-color: rgb(0, 71, 62);
+    border: 6px solid rgb(41, 255, 198);
+}
+
+.nexus {
+    color: rgb(41, 255, 198);
+}
+
+.shade-box {
+    border-radius: 16px;
+    background-color: rgb(63, 49, 49);
+    border: 6px solid rgb(188, 147, 147); 
+}
+
+.shade {
+    color: rgb(188, 147, 147);
+}
+
+.euclid-box {
+    border-radius: 16px;
+    background-color: rgb(45, 37, 49);
+    border: 6px solid rgb(174, 137, 185);
+}
+
+.euclid {
+    color: rgb(174, 137, 185);
+}
+
+.chrono-box {
+    border-radius: 16px;
+    background-color: rgb(0, 76, 49);
+    border: 6px solid rgb(0, 216, 133);
+}
+
+.chrono {
+    color: rgb(0, 216, 133);
 }
